@@ -47,11 +47,8 @@ SalesDatePrediction/
    }
    ```
 
-3. Ejecuta el script SQL para configurar la base de datos:
-   ```bash
-   cd BD
-   sqlcmd -S localhost -U tuUsuario -P tuContrasena -i DBSetup.sql
-   ```
+3. Ejecutar los script SQL para configurar la base de datos:
+  - Se deben ejecutar los scripts en la carpeta DBScripts que esta en la raiz del proyecto, para crear el store procedure.
 
 4. Construye y ejecuta el proyecto:
    ```bash
